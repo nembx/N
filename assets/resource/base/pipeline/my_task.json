@@ -1,5 +1,16 @@
 {
-    "MyTask1": {},
-    "MyTask2": {},
+    "MyTask1": {
+        "recognition": "OCR",
+        "expected": "系统应用",
+        "action": "Click",
+        "next": [
+            "MyTask2"
+        ]
+    },
+    "MyTask2": {
+        "recognition": "OCR",
+        "expected": "设置",
+        "action": "Click"
+    },
     "MyTask3": {}
 }
